@@ -14,4 +14,6 @@ var loadFile = function(event) {
 function functionClear() {
     document.getElementById("demo").innerHTML=null;
     document.getElementById("output").style.display = 'none';   
+    document.getElementById("name").value = null;
+    document.getElementById("file").value = null;
 }
