@@ -22,10 +22,14 @@
                     <option value="deploying a test">Deploy a test</option>
                 </select><br>
                 <br>
+                <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)"><br>
+                <br>
                 <button class="buttonSend" onclick="myFunction()">Send</button>
+                <button class="buttonClear" onclick="functionClear()">Clear</button>
                 <br><br><br>
                 <hr>
                 <label id="demo"></label>
+                <p><img id="output" width="200" style="display: none;"/></p>
             </div>
             <hr>
             <div id="footer">
